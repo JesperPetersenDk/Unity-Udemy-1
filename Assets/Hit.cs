@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Hit : MonoBehaviour
 {
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerEnter(Collider other)
     {
         print("DEAD");
         Destroy(gameObject);
