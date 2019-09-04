@@ -33,11 +33,11 @@ public class Move : MonoBehaviour
 
         if(Input.GetKeyDown(KeyCode.A))
         {
-            transform.Rotate(Vector3.forward);
+            transform.Rotate(Vector3.forward * 60);
         }
         else if(Input.GetKeyDown(KeyCode.D))
         {
-            transform.Rotate(-Vector3.forward);
+            transform.Rotate(-Vector3.forward * 60);
         }
         else if(Input.GetKeyDown(KeyCode.Space))
         {
